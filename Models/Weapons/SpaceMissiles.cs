@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace PlanetWars.Models.Weapons
+{
+    public class SpaceMissiles : Weapon
+    {
+        private const double price = 8.75d;
+        public SpaceMissiles(int destructionLevel)
+            : base(destructionLevel, price)
+        {
+        }
+    }
+}
